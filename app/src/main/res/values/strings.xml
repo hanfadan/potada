@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Potato Disease Detection</string>
+    <string name="welcome_message">Welcome to the Potada</string>
+    <string name="camera_button">Camera</string>
+</resources>

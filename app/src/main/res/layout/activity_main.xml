@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E0F7FA">
+
+    <ImageView
+        android:id="@+id/illustrationImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_illustration" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Potada"
+        android:textSize="20sp"
+        android:textColor="#00796B"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/taglineTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\"Diagnose your plant\""
+    android:textSize="16sp"
+    android:textColor="#00796B"
+    android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/cameraButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#388E3C"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
